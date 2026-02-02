@@ -1,0 +1,54 @@
+############################
+# Node / Backend
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Build / Artifacts
+############################
+dist/
+build/
+coverage/
+
+############################
+# Hardhat / Solidity
+############################
+artifacts/
+cache/
+typechain/
+contracts/node_modules/
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# Temporary files
+############################
+tmp/
+temp/
+*.tmp
